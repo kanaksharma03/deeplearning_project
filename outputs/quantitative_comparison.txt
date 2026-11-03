@@ -1,0 +1,18 @@
+================================================================================
+STEP 5: QUANTITATIVE RECONSTRUCTION & DENOISING COMPARISON (scikit-image)
+Evaluated on 10000 MNIST test images | data_range = 1.0
+================================================================================
+
+--- Core Prompt 5 Comparison (Three Models) ---
+                Model / Condition  MSE (mean ± std) PSNR dB (mean ± std)
+   Undercomplete AE (clean input) 0.00622 ± 0.00448         23.06 ± 3.07
+Denoising AE (noisy input, σ=0.3) 0.00802 ± 0.00463         21.63 ± 2.49
+Variational AE (clean input, z=μ) 0.01169 ± 0.00617         19.90 ± 2.32
+
+--- Full Benchmark Context (Including Baselines) ---
+                    Model / Condition  MSE (mean ± std) PSNR dB (mean ± std)
+       Undercomplete AE (clean input) 0.00622 ± 0.00448         23.06 ± 3.07
+Undercomplete AE (noisy input, σ=0.3) 0.05411 ± 0.01416         12.82 ± 1.18
+    Denoising AE (noisy input, σ=0.3) 0.00802 ± 0.00463         21.63 ± 2.49
+    Variational AE (clean input, z=μ) 0.01169 ± 0.00617         19.90 ± 2.32
+         Baseline Noisy Input (σ=0.3) 0.04665 ± 0.00357         13.32 ± 0.33

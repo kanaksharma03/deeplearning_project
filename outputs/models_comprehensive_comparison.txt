@@ -1,0 +1,32 @@
+==========================================================================================
+EXECUTIVE COMPARATIVE ANALYSIS: UNDERCOMPLETE AE vs. DENOISING AE vs. VAE
+Evaluated on MNIST (10,000 Test Images, Latent Dim d = 16)
+==========================================================================================
+
+TABLE 1: RECONSTRUCTION, DENOISING & DOWNSTREAM ACCURACY COMPARISON
+           Model  Clean PSNR (dB)  Noisy PSNR (dB)  Denoising Gain (Δ dB)  k-NN Accuracy (%)  Linear Probe Accuracy (%)
+Undercomplete AE            23.06            12.82                   -0.5              97.96                      94.10
+    Denoising AE            22.53            21.63                    8.3              97.93                      94.44
+  Variational AE            19.90            14.52                    1.2              97.28                      92.90
+
+TABLE 2: ARCHITECTURE & TRAINING DYNAMICS
+           Model  Parameters  Trained Epochs  Best Epoch           Loss Objective            Generative Sampling
+Undercomplete AE      285969              30          29               MSE(x̂, x)     No (Latent space has gaps)
+    Denoising AE      285969              30          28 MSE(x̂, x) given x_noisy    No (Manifold learning only)
+  Variational AE      286241              82          72           Recon + 1.0·KL Yes (Continuous N(0, I) prior)
+
+TABLE 3: STATISTICAL METRICS (mean ± std on Test Set)
+           Model Clean MSE (mean ± std) Clean PSNR (mean ± std) Noisy PSNR (mean ± std)
+Undercomplete AE      0.00622 ± 0.00448            23.06 ± 3.07            12.82 ± 1.18
+    Denoising AE      0.00678 ± 0.00440            22.53 ± 2.82            21.63 ± 2.49
+  Variational AE      0.01169 ± 0.00617            19.90 ± 2.32            14.52 ± 1.47
+
+KEY DIFFERENTIATING TAKEAWAYS:
+1. Raw Gaussian Noisy Input Baseline (σ = 0.3): MSE = 0.04665, PSNR = 13.32 dB.
+2. Undercomplete AE achieves the highest clean reconstruction fidelity (23.06 dB) and best linear separability,
+   but fails abruptly when evaluated on noisy inputs (drops to 12.82 dB, worse than raw noise).
+3. Denoising AE achieves remarkable noise robustness: cleans noisy inputs from 13.32 dB to 21.63 dB (+8.31 dB gain)
+   while preserving strong representation accuracy.
+4. Variational AE trades a small amount of pixel-level fidelity (19.90 dB) for probabilistic regularity:
+   its latent space conforms to N(0, I), enabling valid generative prior sampling and smooth manifold interpolation.
+==========================================================================================

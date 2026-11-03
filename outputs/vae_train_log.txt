@@ -1,0 +1,95 @@
+device: NVIDIA GeForce RTX 2050
+parameters: 286,241  beta=1.0  epochs 30-100, patience 10
+epoch   1  train  45.05 (rec 36.51 kl  8.54)  val  34.19 (rec 22.90 kl 11.29)  active 16/16   7.7s  *best
+epoch   2  train  32.86 (rec 20.94 kl 11.92)  val  31.96 (rec 20.05 kl 11.91)  active 16/16   5.1s  *best
+epoch   3  train  31.48 (rec 19.11 kl 12.36)  val  30.94 (rec 18.88 kl 12.06)  active 16/16   5.1s  *best
+epoch   4  train  30.74 (rec 18.25 kl 12.49)  val  30.58 (rec 18.21 kl 12.37)  active 16/16   5.1s  *best
+epoch   5  train  30.21 (rec 17.64 kl 12.57)  val  30.19 (rec 17.34 kl 12.85)  active 16/16   5.0s  *best
+epoch   6  train  29.89 (rec 17.25 kl 12.64)  val  29.99 (rec 17.56 kl 12.43)  active 16/16   4.9s  *best
+epoch   7  train  29.56 (rec 16.87 kl 12.69)  val  29.63 (rec 16.97 kl 12.66)  active 16/16   5.0s  *best
+epoch   8  train  29.35 (rec 16.64 kl 12.71)  val  29.45 (rec 16.43 kl 13.02)  active 16/16   5.0s  *best
+epoch   9  train  29.16 (rec 16.43 kl 12.74)  val  29.18 (rec 16.12 kl 13.05)  active 16/16   5.0s  *best
+epoch  10  train  28.96 (rec 16.22 kl 12.74)  val  29.07 (rec 16.40 kl 12.66)  active 16/16   5.0s  *best
+epoch  11  train  28.84 (rec 16.09 kl 12.75)  val  28.92 (rec 15.83 kl 13.08)  active 16/16   5.0s  *best
+epoch  12  train  28.72 (rec 15.95 kl 12.77)  val  28.77 (rec 16.09 kl 12.68)  active 16/16   5.1s  *best
+epoch  13  train  28.60 (rec 15.83 kl 12.77)  val  28.66 (rec 15.78 kl 12.88)  active 16/16   5.0s  *best
+epoch  14  train  28.47 (rec 15.72 kl 12.75)  val  28.54 (rec 15.79 kl 12.75)  active 16/16   5.0s  *best
+epoch  15  train  28.37 (rec 15.62 kl 12.75)  val  28.54 (rec 15.46 kl 13.08)  active 16/16   5.0s  *best
+epoch  16  train  28.26 (rec 15.51 kl 12.75)  val  28.36 (rec 15.87 kl 12.49)  active 16/16   5.0s  *best
+epoch  17  train  28.20 (rec 15.43 kl 12.77)  val  28.26 (rec 15.87 kl 12.39)  active 16/16   5.0s  *best
+epoch  18  train  28.09 (rec 15.35 kl 12.74)  val  28.26 (rec 15.21 kl 13.06)  active 16/16   5.0s
+epoch  19  train  28.01 (rec 15.27 kl 12.74)  val  28.13 (rec 15.74 kl 12.38)  active 16/16   5.1s  *best
+epoch  20  train  27.97 (rec 15.21 kl 12.76)  val  28.10 (rec 15.16 kl 12.93)  active 16/16  10.1s  *best
+epoch  21  train  27.89 (rec 15.14 kl 12.75)  val  28.03 (rec 14.96 kl 13.06)  active 16/16   5.0s  *best
+epoch  22  train  27.86 (rec 15.12 kl 12.74)  val  28.00 (rec 15.21 kl 12.79)  active 16/16   5.1s  *best
+epoch  23  train  27.76 (rec 15.04 kl 12.72)  val  27.92 (rec 15.13 kl 12.79)  active 16/16   5.0s  *best
+epoch  24  train  27.74 (rec 14.98 kl 12.76)  val  27.92 (rec 15.44 kl 12.48)  active 16/16   7.4s
+epoch  25  train  27.68 (rec 14.94 kl 12.74)  val  27.87 (rec 15.37 kl 12.50)  active 16/16   5.2s  *best
+epoch  26  train  27.61 (rec 14.88 kl 12.73)  val  27.86 (rec 15.35 kl 12.51)  active 16/16   7.5s  *best
+epoch  27  train  27.56 (rec 14.83 kl 12.74)  val  27.71 (rec 14.93 kl 12.78)  active 16/16   9.3s  *best
+epoch  28  train  27.51 (rec 14.79 kl 12.71)  val  27.71 (rec 14.76 kl 12.94)  active 16/16  10.2s  *best
+epoch  29  train  27.51 (rec 14.77 kl 12.74)  val  27.83 (rec 14.97 kl 12.86)  active 16/16   5.0s
+epoch  30  train  27.45 (rec 14.72 kl 12.73)  val  27.61 (rec 15.06 kl 12.55)  active 16/16   5.0s  *best
+epoch  31  train  27.42 (rec 14.67 kl 12.76)  val  27.61 (rec 14.77 kl 12.84)  active 16/16   5.1s  *best
+epoch  32  train  27.38 (rec 14.65 kl 12.73)  val  27.61 (rec 14.85 kl 12.75)  active 16/16   5.1s  *best
+epoch  33  train  27.34 (rec 14.62 kl 12.72)  val  27.48 (rec 14.90 kl 12.58)  active 15/16   5.0s  *best
+epoch  34  train  27.30 (rec 14.57 kl 12.73)  val  27.45 (rec 14.71 kl 12.73)  active 15/16   5.1s  *best
+epoch  35  train  27.28 (rec 14.53 kl 12.75)  val  27.50 (rec 14.76 kl 12.73)  active 15/16   5.0s
+epoch  36  train  27.25 (rec 14.52 kl 12.73)  val  27.43 (rec 14.84 kl 12.59)  active 15/16   5.1s  *best
+epoch  37  train  27.19 (rec 14.47 kl 12.72)  val  27.46 (rec 14.94 kl 12.52)  active 15/16   4.9s
+epoch  38  train  27.19 (rec 14.45 kl 12.75)  val  27.45 (rec 14.76 kl 12.69)  active 15/16   5.0s
+epoch  39  train  27.17 (rec 14.43 kl 12.75)  val  27.41 (rec 14.91 kl 12.50)  active 15/16   5.0s  *best
+epoch  40  train  27.13 (rec 14.40 kl 12.73)  val  27.36 (rec 14.51 kl 12.85)  active 15/16   5.0s  *best
+epoch  41  train  27.11 (rec 14.38 kl 12.73)  val  27.30 (rec 14.27 kl 13.03)  active 15/16   5.0s  *best
+epoch  42  train  27.06 (rec 14.33 kl 12.72)  val  27.41 (rec 14.52 kl 12.89)  active 15/16   5.1s
+epoch  43  train  27.07 (rec 14.33 kl 12.75)  val  27.38 (rec 15.03 kl 12.36)  active 14/16   9.1s
+epoch  44  train  27.00 (rec 14.30 kl 12.69)  val  27.28 (rec 14.32 kl 12.96)  active 14/16   5.2s  *best
+epoch  45  train  26.99 (rec 14.29 kl 12.70)  val  27.25 (rec 14.50 kl 12.75)  active 14/16   5.2s  *best
+epoch  46  train  27.00 (rec 14.26 kl 12.75)  val  27.41 (rec 14.77 kl 12.64)  active 14/16   5.1s
+epoch  47  train  26.95 (rec 14.22 kl 12.73)  val  27.36 (rec 14.31 kl 13.05)  active 14/16   5.1s
+epoch  48  train  26.98 (rec 14.22 kl 12.76)  val  27.18 (rec 14.34 kl 12.84)  active 14/16   5.0s  *best
+epoch  49  train  26.92 (rec 14.20 kl 12.72)  val  27.18 (rec 14.43 kl 12.75)  active 14/16   5.0s
+epoch  50  train  26.94 (rec 14.19 kl 12.75)  val  27.22 (rec 14.39 kl 12.83)  active 14/16   5.0s
+epoch  51  train  26.88 (rec 14.17 kl 12.71)  val  27.05 (rec 14.46 kl 12.59)  active 14/16   5.0s  *best
+epoch  52  train  26.87 (rec 14.14 kl 12.73)  val  27.17 (rec 14.26 kl 12.91)  active 14/16   5.0s
+epoch  53  train  26.86 (rec 14.12 kl 12.74)  val  27.17 (rec 14.64 kl 12.53)  active 14/16   5.0s
+epoch  54  train  26.82 (rec 14.09 kl 12.73)  val  27.13 (rec 14.35 kl 12.78)  active 14/16   5.2s
+epoch  55  train  26.79 (rec 14.07 kl 12.71)  val  27.16 (rec 14.40 kl 12.76)  active 14/16   5.0s
+epoch  56  train  26.78 (rec 14.06 kl 12.72)  val  27.08 (rec 14.57 kl 12.51)  active 14/16   5.0s
+epoch  57  train  26.77 (rec 14.05 kl 12.73)  val  27.11 (rec 14.30 kl 12.81)  active 14/16   5.0s
+epoch  58  train  26.78 (rec 14.04 kl 12.74)  val  27.14 (rec 14.03 kl 13.10)  active 14/16   5.0s
+epoch  59  train  26.74 (rec 14.01 kl 12.73)  val  27.05 (rec 14.12 kl 12.93)  active 14/16   5.0s
+epoch  60  train  26.76 (rec 14.00 kl 12.76)  val  26.98 (rec 14.41 kl 12.57)  active 14/16   5.1s  *best
+epoch  61  train  26.71 (rec 13.98 kl 12.73)  val  27.08 (rec 14.37 kl 12.72)  active 14/16   5.2s
+epoch  62  train  26.71 (rec 13.97 kl 12.75)  val  27.02 (rec 14.48 kl 12.53)  active 14/16   5.0s
+epoch  63  train  26.68 (rec 13.94 kl 12.74)  val  27.01 (rec 14.10 kl 12.91)  active 14/16   5.2s
+epoch  64  train  26.68 (rec 13.94 kl 12.74)  val  27.02 (rec 14.25 kl 12.77)  active 14/16   5.1s
+epoch  65  train  26.66 (rec 13.93 kl 12.73)  val  26.94 (rec 14.28 kl 12.66)  active 14/16   5.2s  *best
+epoch  66  train  26.66 (rec 13.90 kl 12.75)  val  26.93 (rec 14.28 kl 12.65)  active 14/16   5.6s  *best
+epoch  67  train  26.64 (rec 13.90 kl 12.74)  val  27.01 (rec 14.10 kl 12.91)  active 14/16   5.8s
+epoch  68  train  26.60 (rec 13.87 kl 12.73)  val  27.07 (rec 14.26 kl 12.81)  active 13/16  14.5s
+epoch  69  train  26.61 (rec 13.87 kl 12.74)  val  26.92 (rec 14.22 kl 12.69)  active 13/16  22.7s  *best
+epoch  70  train  26.59 (rec 13.86 kl 12.73)  val  26.94 (rec 14.07 kl 12.87)  active 13/16  21.4s
+epoch  71  train  26.58 (rec 13.84 kl 12.74)  val  26.97 (rec 14.39 kl 12.58)  active 13/16  21.4s
+epoch  72  train  26.59 (rec 13.84 kl 12.76)  val  26.82 (rec 13.98 kl 12.84)  active 13/16  21.1s  *best
+epoch  73  train  26.55 (rec 13.82 kl 12.73)  val  26.94 (rec 14.36 kl 12.57)  active 13/16  20.4s
+epoch  74  train  26.54 (rec 13.78 kl 12.76)  val  26.90 (rec 14.08 kl 12.83)  active 13/16  20.5s
+epoch  75  train  26.56 (rec 13.80 kl 12.76)  val  26.86 (rec 14.04 kl 12.82)  active 13/16  21.3s
+epoch  76  train  26.51 (rec 13.77 kl 12.74)  val  26.85 (rec 14.03 kl 12.82)  active 13/16  20.3s
+epoch  77  train  26.51 (rec 13.77 kl 12.73)  val  26.86 (rec 14.20 kl 12.66)  active 13/16  20.7s
+epoch  78  train  26.52 (rec 13.76 kl 12.75)  val  26.90 (rec 14.18 kl 12.72)  active 13/16  20.1s
+epoch  79  train  26.49 (rec 13.75 kl 12.73)  val  26.85 (rec 14.01 kl 12.84)  active 13/16  20.6s
+epoch  80  train  26.50 (rec 13.76 kl 12.74)  val  26.86 (rec 14.26 kl 12.61)  active 13/16  21.5s
+epoch  81  train  26.47 (rec 13.73 kl 12.74)  val  26.85 (rec 14.24 kl 12.60)  active 13/16  21.0s
+epoch  82  train  26.45 (rec 13.70 kl 12.75)  val  26.82 (rec 14.06 kl 12.76)  active 13/16  20.9s
+Early stopping: no improvement for 10 epochs.
+Restored best weights from epoch 72 (val loss 26.82).
+
+Posterior-collapse check (validation set, best epoch):
+  dim      :     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15
+  KL (nats):  0.48  0.74  0.51  1.22  1.45  0.00  1.02  2.04  1.63  0.92  0.95  0.27  1.28  0.00  0.32  0.00
+  Var[mu]  :  0.54  0.73  0.60  0.87  0.92  0.01  0.79  1.03  0.99  0.80  0.80  0.36  0.89  0.00  0.41  0.00
+  active units: 13/16, total KL 12.84 nats -> no posterior collapse
+
+Test set, reconstruction from z = mu: MSE 0.01169 ± 0.00617, PSNR 19.90 ± 2.32 dB
+saved figures and weights to outputs/
